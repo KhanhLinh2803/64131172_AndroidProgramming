@@ -1,4 +1,4 @@
-package linhntk.ntu.ex2_linearlayout;
+ package linhntk.ntu.ex2_linearlayout;
 
 import android.os.Bundle;
 
@@ -22,3 +22,4 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 }
+
