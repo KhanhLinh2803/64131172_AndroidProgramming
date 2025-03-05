@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         TimDieuKhien();
         //gan bo lang nghe cho tung nut
-        
+
     }
     void TimDieuKhien() {
         editTextSo1 = findViewById(R.id.edtSo1);
