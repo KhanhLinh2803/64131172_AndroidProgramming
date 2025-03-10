@@ -8,7 +8,7 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/txtTieuDe"
         android:layout_width="333dp"
         android:layout_height="47dp"
         android:background="#ffc0cb"
@@ -22,21 +22,21 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/txtMain"
         android:layout_width="186dp"
         android:layout_height="56dp"
-        android:layout_marginStart="160dp"
-        android:layout_marginTop="84dp"
-        android:layout_marginEnd="157dp"
+        android:layout_marginStart="112dp"
+        android:layout_marginTop="137dp"
+        android:layout_marginEnd="113dp"
         android:text="Màn hình chính"
         android:textAlignment="center"
         android:textSize="25dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintTop_toBottomOf="@+id/txtTieuDe" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btnLogin"
         android:layout_width="305dp"
         android:layout_height="74dp"
         android:layout_marginStart="54dp"
