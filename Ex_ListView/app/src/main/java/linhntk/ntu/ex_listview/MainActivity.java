@@ -5,6 +5,7 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+import android.widget.Toast;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -41,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
                 //chu y: bien position chu vi tri item duoc click
                 String giatriDuochon = dsNgonngu.get(position);
                 //lam gi do voi gia tri tuy yeu cau
-                
+                Toast.makeText(MainActivity.this, giatriDuochon, Toast.LENGTH_SHORT).show();
             }
         });
 
