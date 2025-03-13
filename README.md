@@ -6,6 +6,14 @@ Chào bạn, mình là **Khánh Linh**
 
 ---
 
+## 📌 Bài làm thêm: Danh sách Abum Tear Your Self  
+| Hình ảnh | Mô tả |
+|----------|-------|
+|![Screenshot 2025-03-13 082644](https://github.com/user-attachments/assets/fbe84328-7268-45e0-b0d6-49dc5aa3c708)| Giao diện Đăng nhập |
+|![Screenshot 2025-03-13 083212](https://github.com/user-attachments/assets/509e3b43-778b-4e3e-8fa4-0fcf4b1b14d1)| Giao diện Danh sách bài hát |
+
+---
+
 ## 📌 Bài làm thêm: Tính diện tích hình Chữ nhật  
 ![Giao diện ứng dụng]![Screenshot 2025-02-28 200021](https://github.com/user-attachments/assets/9ab9bf50-cd93-4bae-a90f-d4728c1e6f03)  
 
