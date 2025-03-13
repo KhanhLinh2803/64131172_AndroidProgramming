@@ -9,19 +9,26 @@
 
     <ListView
         android:id="@+id/lvDSBH"
-        android:layout_width="408dp"
-        android:layout_height="283dp"
+        android:layout_width="341dp"
+        android:layout_height="268dp"
         android:layout_marginStart="6dp"
-        android:layout_marginBottom="5dp"
+        android:layout_marginBottom="152dp"
+        android:background="#F08080"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.453"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/txtAlbum"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="165dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="120dp"
         android:text="Album_Tear Your Self"
-        tools:layout_editor_absoluteX="150dp"
-        tools:layout_editor_absoluteY="169dp" />
+        android:background="#EE82EE"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.532"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
