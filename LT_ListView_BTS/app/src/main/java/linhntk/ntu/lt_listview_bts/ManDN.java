@@ -29,7 +29,7 @@ public class ManDN extends AppCompatActivity {
         Dsbh.add("DNA");
         Dsbh.add("Idol");
         Dsbh.add("Fake love");
-        //khai bao adapter
+        //khai bao adapter truyen arraylist vào listview
         ArrayAdapter<String> adapterDsbh = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, Dsbh);
         //gan adapter cho listview
         lvDSBH.setAdapter(adapterDsbh);
