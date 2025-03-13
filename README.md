@@ -13,6 +13,12 @@ Chào bạn, mình là **Khánh Linh**
 |![Screenshot 2025-03-13 083212](https://github.com/user-attachments/assets/509e3b43-778b-4e3e-8fa4-0fcf4b1b14d1)| Giao diện Danh sách bài hát |
 
 ---
+## 📌 Ex_ListView: Danh sách Ngôn ngữ lập trình  
+| Hình ảnh | Mô tả |
+|----------|-------|
+|![Screenshot 2025-03-12 195231](https://github.com/user-attachments/assets/760a673a-ed25-486f-9e3d-a68a8233e582)| Giao diện Danh sách NNLT |
+
+---
 
 ## 📌 Bài làm thêm: Tính diện tích hình Chữ nhật  
 ![Giao diện ứng dụng]![Screenshot 2025-02-28 200021](https://github.com/user-attachments/assets/9ab9bf50-cd93-4bae-a90f-d4728c1e6f03)  
