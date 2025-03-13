@@ -25,9 +25,10 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 String chao ="xin chao";
-                int dodai = Toast.LENGTH_SHORT;
-                Toast chao1 = Toast.makeText(MainActivity.this, chao, dodai);
-                chao1.show();
+                //int dodai = Toast.LENGTH_SHORT;
+                //Toast chao1 =
+                Toast.makeText(MainActivity.this, chao,Toast.LENGTH_SHORT).show();
+                //chao1.show();
             }
         });
     }
