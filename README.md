@@ -9,7 +9,7 @@ Chào bạn, mình là **Khánh Linh**
 ## 📌 TH_LoginPage  
 | Hình ảnh | Mô tả |
 |----------|-------|
-|![Screenshot 2025-03-17 205124](https://github.com/user-attachments/assets/6c2d86c8-1fd1-48dd-8cb2-8d147773a6c0)| Giao diện|
+|![Screenshot 2025-03-17 211517](https://github.com/user-attachments/assets/ec156fec-922a-4dbf-bfaf-d3ccd62ae723)| Giao diện|
 
 ---
 
