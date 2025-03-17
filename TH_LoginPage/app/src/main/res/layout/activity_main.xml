@@ -8,7 +8,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
-    android:background="@drawable/loginbkg"
+    android:background="@color/ddo"
     tools:context=".MainActivity">
 
     <androidx.cardview.widget.CardView
@@ -42,7 +42,7 @@
                 android:layout_height="50dp"
                 android:id="@+id/username"
                 android:background="@drawable/custom_edittext"
-                android:drawableLeft="@drawable/ic_baseline_person_24"
+                android:drawableLeft="@color/xanhduong"
                 android:drawablePadding="8dp"
                 android:hint="Username"
                 android:padding="8dp"
@@ -55,7 +55,7 @@
                 android:layout_height="50dp"
                 android:id="@+id/password"
                 android:background="@drawable/custom_edittext"
-                android:drawableLeft="@drawable/ic_baseline_lock_24"
+                android:drawableLeft="@color/hong"
                 android:drawablePadding="8dp"
                 android:hint="Password"
                 android:padding="8dp"
