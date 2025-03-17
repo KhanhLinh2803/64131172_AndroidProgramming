@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="purple">#8692f7</color>
+    <color name="xanhla">#33FF66</color>
+    <color name="xanhduong">#99FFFF</color>
+    <color name="tim">#FF99FF</color>
+    <color name="hong">#FF3366</color>
+    <color name="ddo">#FF3333</color>
+    
+</resources>
