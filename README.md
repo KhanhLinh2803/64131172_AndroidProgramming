@@ -1,4 +1,4 @@
-# 64131172_AndroidProgramming
+![Screenshot 2025-03-19 153749](https://github.com/user-attachments/assets/30195444-b183-4a2c-a2ae-513ccea60934)# 64131172_AndroidProgramming
 Lưu các bài thực hành!
 
 ## 🎯 Giới thiệu  
@@ -9,7 +9,8 @@ Chào bạn, mình là **Khánh Linh**
 ## 📌 LT_DiemCong  
 | Hình ảnh | Mô tả |
 |----------|-------|
-|![Screenshot 2025-03-18 081828](https://github.com/user-attachments/assets/f6a07a80-634c-4340-9f65-9ab7a964a793)| Giao diện|
+|![Screenshot 2025-03-19 153749](https://github.com/user-attachments/assets/81c0e02a-7ede-41e0-9cb2-8bd7f3b59137)| Giao diện|
+|![Screenshot 2025-03-19 160706](https://github.com/user-attachments/assets/564e6ea1-b160-4fb3-9fe6-246e5a10588a)| Giao diện|
 
 ---
 
