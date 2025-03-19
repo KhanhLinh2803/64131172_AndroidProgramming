@@ -6,21 +6,22 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
-
-    Button bnt1, btn2, btn3, btn4, btn5, btn6, btn7, btn8,btn9;
-    TextView edtOutPut;
+    Button btn0, btn1, btn2, btn3, btn4, btn5, btn6, btn7, btn8, btn9, btnKT;
+    TextView txtView, txtSoA, txtSoB;
     @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_main);
-        bnt1 = findViewById(R.id.bnt1);
+        btn0 = findViewById(R.id.btn0);
+        btn1 = findViewById(R.id.btn1);
         btn2 = findViewById(R.id.btn2);
         btn3 = findViewById(R.id.btn3);
         btn4 = findViewById(R.id.btn4);
@@ -29,60 +30,91 @@ public class MainActivity extends AppCompatActivity {
         btn7 = findViewById(R.id.btn7);
         btn8 = findViewById(R.id.btn8);
         btn9 = findViewById(R.id.btn9);
-        edtOutPut = findViewById(R.id.edtOutPut);
+        txtView = findViewById(R.id.txtView);
 
-        bnt1.setOnClickListener(new View.OnClickListener() {
+        btnKT = findViewById(R.id.btnKT);
+        txtSoA = findViewById(R.id.txtSoA);
+        txtSoB = findViewById(R.id.txtSoB);
+
+        int a = (int)Math.random();
+        int b = (int)Math.random();
+        int kq = a+b;
+
+        txtSoB.setText(String.valueOf(a));
+        txtSoA.setText(String.valueOf(b));
+
+        btnKT.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                edtOutPut.setText("1");
+                String KetquaNhap = txtView.getText().toString().trim();
+                int Ketqua = Integer.parseInt(KetquaNhap);
+                if(Ketqua == kq){
+                    Toast.makeText(MainActivity.this, "Đúng rồi!", Toast.LENGTH_SHORT).show();
+                }
+                else{
+                    Toast.makeText(MainActivity.this, "Hãy thử lại!", Toast.LENGTH_SHORT).show();
+                }
+            }
+        });
+
+        btn0.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                txtView.setText("0");
+            }
+        });
+        btn1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                txtView.setText("1");
             }
         });
         btn2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                edtOutPut.setText("2");
+                txtView.setText("2");
             }
         });
         btn3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                edtOutPut.setText("3");
+                txtView.setText("3");
             }
         });
         btn4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                edtOutPut.setText("4");
+                txtView.setText("4");
             }
         });
         btn5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                edtOutPut.setText("5");
+                txtView.setText("5");
             }
         });
         btn6.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                edtOutPut.setText("6");
+                txtView.setText("6");
             }
         });
         btn7.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                edtOutPut.setText("7");
+                txtView.setText("7");
             }
         });
         btn8.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                edtOutPut.setText("8");
+                txtView.setText("8");
             }
         });
         btn9.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                edtOutPut.setText("9");
+                txtView.setText("9");
             }
         });
     }
