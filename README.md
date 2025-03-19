@@ -1,4 +1,4 @@
-![Screenshot 2025-03-19 153749](https://github.com/user-attachments/assets/30195444-b183-4a2c-a2ae-513ccea60934)# 64131172_AndroidProgramming
+# 64131172_AndroidProgramming
 Lưu các bài thực hành!
 
 ## 🎯 Giới thiệu  
