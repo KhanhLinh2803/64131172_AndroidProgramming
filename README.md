@@ -6,6 +6,13 @@ Chào bạn, mình là **Khánh Linh**
 
 ---
 
+## 📌 LT_DiemCong  
+| Hình ảnh | Mô tả |
+|----------|-------|
+|![Screenshot 2025-03-18 081828](https://github.com/user-attachments/assets/f6a07a80-634c-4340-9f65-9ab7a964a793)| Giao diện|
+
+---
+
 ## 📌 TH_LoginPage  
 | Hình ảnh | Mô tả |
 |----------|-------|
