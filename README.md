@@ -9,6 +9,7 @@ Chào bạn, mình là **Khánh Linh**
 ## 📌 LT_Figma  
 | Hình ảnh | Mô tả |
 |----------|-------|
+|![Screenshot 2025-03-20 222120](https://github.com/user-attachments/assets/c5629ccc-e616-40f8-86fd-8f23a730b94d)| Giao diện Home Page|
 |![Screenshot 2025-03-20 154056](https://github.com/user-attachments/assets/1258e7e4-8cb7-4048-a0be-9c3407ed5d6e)| Giao diện Landing Page|
 
 ---
