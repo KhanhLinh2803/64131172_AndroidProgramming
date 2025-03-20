@@ -7,4 +7,59 @@
     android:layout_height="match_parent"
     tools:context=".HomePage">
 
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="216dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/saira"
+        android:text="Hi, Good Morning"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.111"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Biểu tượng kính lúp -->
+
+    <EditText
+        android:id="@+id/etSearch"
+        android:layout_width="314dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="76dp"
+        android:layout_weight="1"
+        android:background="@android:color/transparent"
+        android:hint="Tìm kiếm..."
+        android:padding="8dp"
+        android:singleLine="true"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/btnSearch"
+        android:layout_width="64dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="328dp"
+        android:padding="8dp"
+        android:src="@android:drawable/ic_menu_search"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.368"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextText3"
+        android:layout_width="315dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="160dp"
+        android:ems="10"
+        android:inputType="text"
+        android:singleLine="true"
+        android:hint="Tìm kiếm"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
