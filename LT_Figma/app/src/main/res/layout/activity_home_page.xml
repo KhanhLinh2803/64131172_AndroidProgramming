@@ -15,6 +15,7 @@
         android:fontFamily="@font/saira"
         android:text="Hi, Good Morning"
         android:textSize="20dp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.111"
         app:layout_constraintStart_toStartOf="parent"
@@ -28,8 +29,7 @@
         android:layout_height="54dp"
         android:layout_marginTop="76dp"
         android:layout_weight="1"
-        android:background="@android:color/transparent"
-        android:hint="Tìm kiếm..."
+        android:background="@drawable/bgtimkiem"
         android:padding="8dp"
         android:singleLine="true"
         android:textSize="16sp"
@@ -37,29 +37,57 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+
     <ImageView
-        android:id="@+id/btnSearch"
-        android:layout_width="64dp"
-        android:layout_height="55dp"
-        android:layout_marginTop="328dp"
-        android:padding="8dp"
-        android:src="@android:drawable/ic_menu_search"
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="96dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.368"
+        app:layout_constraintHorizontal_bias="0.876"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/imgclup" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_marginTop="144dp"
+        android:background="@drawable/hcnmath"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.154"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <EditText
-        android:id="@+id/editTextText3"
-        android:layout_width="315dp"
-        android:layout_height="68dp"
-        android:layout_marginTop="160dp"
-        android:ems="10"
-        android:inputType="text"
-        android:singleLine="true"
-        android:hint="Tìm kiếm"
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/view"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.341"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/imgmath" />
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_marginTop="144dp"
+        android:background="@drawable/bgsceince"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.927"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/imgsceince"
+        tools:layout_editor_absoluteX="273dp"
+        tools:layout_editor_absoluteY="208dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
