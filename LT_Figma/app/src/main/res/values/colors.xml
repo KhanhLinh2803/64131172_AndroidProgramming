@@ -4,4 +4,9 @@
     <color name="white">#FFFFFFFF</color>
     <color name="dennhat">#000000</color>
     <color name="xamchuot">#909090</color>
+    <color name="xanhla">#18B74B</color>
+    <color name="hongdam">#BE3E53</color>
+    <color name="xanhbien">#1BA7A6</color>
+    <color name="vangkhe">#EDC463</color>
+
 </resources>

@@ -14,13 +14,14 @@ import androidx.core.view.WindowInsetsCompat;
 
 public class HomeMath extends AppCompatActivity {
     TextView textView20;
-    ImageView imageView15 = findViewById(R.id.imageView15);
+    ImageView imageView15;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_home_math);
         textView20 = findViewById(R.id.textView20);
+        imageView15 = findViewById(R.id.imageView15);
 
         textView20.setOnClickListener(new View.OnClickListener() {
             @Override
