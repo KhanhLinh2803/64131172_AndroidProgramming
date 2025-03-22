@@ -9,6 +9,7 @@ Chào bạn, mình là **Khánh Linh**
 ## 📌 LT_Figma  
 | Hình ảnh | Mô tả |
 |----------|-------|
+|![Screenshot 2025-03-21 161551](https://github.com/user-attachments/assets/910d5f52-a278-4c66-a04a-f649ecef2824)| Giao diện MathSetting|
 |![Screenshot 2025-03-21 153858](https://github.com/user-attachments/assets/746a8072-f793-4baf-94be-ee4e6d9ddb71)| Giao diện HomeMath1 - thêm nút Home|
 |![Screenshot 2025-03-21 150433](https://github.com/user-attachments/assets/8310817a-193c-4a1e-8af6-06ed3004abc1)| Giao diện HomeMath1|
 |![Screenshot 2025-03-20 222120](https://github.com/user-attachments/assets/c5629ccc-e616-40f8-86fd-8f23a730b94d)| Giao diện Home Page|
