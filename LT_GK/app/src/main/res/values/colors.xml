@@ -10,7 +10,7 @@
     <color name="vangchoi">#F9F400</color>
     <color name="hong">#E33539</color>
     <color name="doo">#C50023</color>
-    <color name="bg1xanh">#98D0B9</color>
+    <color name="myCustomColor">#98D0B9</color>
     <color name="bg1vang">#FFFAB3</color>
 
 </resources>
