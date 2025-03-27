@@ -6,4 +6,7 @@
     </style>
 
     <style name="Theme.LT_GK" parent="Base.Theme.LT_GK" />
+    <style name="bgbutton">
+        <item name="android:background">@drawable/shapebutton</item>
+    </style>
 </resources>
