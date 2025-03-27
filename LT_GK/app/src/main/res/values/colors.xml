@@ -2,4 +2,13 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="timnhat">#C57CAC</color>
+    <color name="xam">#D7D7D7</color>
+    <color name="timdam">#79378B</color>
+    <color name="xanhduong">#00B2BF</color>
+    <color name="xanhla">#5BBD2B</color>
+    <color name="vangchoi">#F9F400</color>
+    <color name="hong">#E33539</color>
+    <color name="doo">#C50023</color>
+
 </resources>
