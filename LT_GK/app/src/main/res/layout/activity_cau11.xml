@@ -7,4 +7,42 @@
     android:layout_height="match_parent"
     tools:context=".Cau1_1">
 
+    <EditText
+        android:id="@+id/edtBanKinh"
+        android:layout_width="209dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="88dp"
+        android:hint="Nhập bán kính"
+        android:inputType="numberDecimal"
+        android:background="@drawable/btnedt2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnTinhChuVi"
+        android:layout_width="209dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="152dp"
+        android:text="Tính Chu Vi"
+        android:textColor="@color/xanhduong"
+        android:textSize="25dp"
+        android:background="@drawable/btntong"
+        app:backgroundTint="@null"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtBanKinh" />
+
+    <TextView
+        android:id="@+id/txtKetQua"
+        android:layout_width="209dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="112dp"
+        android:text="Chu vi: "
+        android:textSize="30dp"
+        android:backgroundTint="@color/doo"
+        android:gravity="center_vertical|start"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnTinhChuVi" />
 </androidx.constraintlayout.widget.ConstraintLayout>
