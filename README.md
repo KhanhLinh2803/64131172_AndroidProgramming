@@ -6,6 +6,15 @@ Chào bạn, mình là **Khánh Linh**
 
 ---
 
+## 📌 LT_GK  
+| Hình ảnh | Mô tả |
+|----------|-------|
+|![Screenshot 2025-03-28 003505](https://github.com/user-attachments/assets/9e99f4b0-f0b7-4fa0-9045-f2af682e413b)| Giao diện câu2|
+|![Screenshot 2025-03-28 003505](https://github.com/user-attachments/assets/abfe72cd-63c7-49ec-8a13-cdc14dbb9cab)| Giao diện câu1|
+|![Screenshot 2025-03-28 003516](https://github.com/user-attachments/assets/02bde9be-04fe-4ca0-8e38-eb307ae81013)| Giao diện 1|
+
+---
+
 ## 📌 LT_Figma  
 | Hình ảnh | Mô tả |
 |----------|-------|
