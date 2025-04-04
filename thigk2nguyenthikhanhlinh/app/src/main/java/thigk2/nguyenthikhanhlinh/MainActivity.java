@@ -24,7 +24,13 @@ public class MainActivity extends AppCompatActivity {
         btncau3 = findViewById(R.id.btncau3);
         btncau4 = findViewById(R.id.btncau4);
 
-
+        btncau.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent cau5 = new Intent(MainActivity.this, thigk2.nguyenthikhanhlinh.cau5.class);
+                startActivity(cau5);
+            }
+        });
         btncau1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
