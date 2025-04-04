@@ -9,6 +9,7 @@ Chào bạn, mình là **Khánh Linh**
 ## 📌 LT_GK  
 | Hình ảnh | Mô tả |
 |----------|-------|
+|![Screenshot 2025-03-31 022610](https://github.com/user-attachments/assets/c6bf1e7b-8f76-42fe-b2d3-6e00bbfed318)| Giao diện Profile|
 |![Screenshot 2025-03-28 010234](https://github.com/user-attachments/assets/04d54f07-8570-484e-b01f-18b1357abea3)| Giao diện câu2|
 |![Screenshot 2025-03-28 003505](https://github.com/user-attachments/assets/abfe72cd-63c7-49ec-8a13-cdc14dbb9cab)| Giao diện câu1|
 |![Screenshot 2025-03-28 003516](https://github.com/user-attachments/assets/02bde9be-04fe-4ca0-8e38-eb307ae81013)| Giao diện 1|
