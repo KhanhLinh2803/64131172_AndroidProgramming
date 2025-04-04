@@ -8,12 +8,14 @@
     tools:context=".MainActivity">
 
     <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="405dp"
-        android:layout_height="249dp"
+        android:id="@+id/imageView3"
+        android:layout_width="403dp"
+        android:layout_height="236dp"
+        android:layout_marginTop="4dp"
         android:scaleType="fitXY"
-        android:src="@tools:sample/avatars"
+        android:background="@drawable/logo"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.444"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -65,6 +67,22 @@
         app:backgroundTint="@null"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.145"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btncau"
+        android:layout_width="137dp"
+        android:layout_height="88dp"
+        android:layout_marginTop="564dp"
+        android:background="@drawable/btn"
+        android:text="Chức năng 5"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:backgroundTint="@null"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
