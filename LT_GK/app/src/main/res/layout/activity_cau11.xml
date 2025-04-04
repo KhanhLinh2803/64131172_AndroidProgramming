@@ -8,41 +8,111 @@
     tools:context=".Cau1_1">
 
     <EditText
-        android:id="@+id/edtBanKinh"
-        android:layout_width="209dp"
-        android:layout_height="57dp"
-        android:layout_marginTop="88dp"
-        android:hint="Nhập bán kính"
-        android:inputType="numberDecimal"
-        android:background="@drawable/btnedt2"
+        android:id="@+id/edtA4"
+        android:layout_width="79dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/btnedit"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.879"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtA2" />
+
+    <TextView
+        android:id="@+id/txtA4"
+        android:layout_width="76dp"
+        android:layout_height="67dp"
+        android:layout_marginTop="96dp"
+        android:background="@drawable/tbinh"
+        android:gravity="center_vertical|center"
+        android:text="CK"
+        android:textSize="27dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.871"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtA3"
+        android:layout_width="76dp"
+        android:layout_height="67dp"
+        android:layout_marginTop="96dp"
+        android:background="@drawable/tbinh"
+        android:gravity="center_vertical|center"
+        android:text="GK"
+        android:textSize="27dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/edtA3"
+        android:layout_width="86dp"
+        android:layout_height="78dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/btnedit"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtA2" />
+
+    <EditText
+        android:id="@+id/edtA2"
+        android:layout_width="74dp"
+        android:layout_height="76dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/btnedit"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.106"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtA2" />
+
+    <EditText
+        android:id="@+id/edtKQ"
+        android:layout_width="255dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="544dp"
+        android:background="@drawable/btnedit"
+        android:ems="10"
+        android:inputType="number"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <TextView
+        android:id="@+id/txtA2"
+        android:layout_width="76dp"
+        android:layout_height="67dp"
+        android:layout_marginTop="96dp"
+        android:background="@drawable/tbinh"
+        android:gravity="center_vertical|center"
+        android:text="QT"
+        android:textSize="27dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.101"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <Button
-        android:id="@+id/btnTinhChuVi"
-        android:layout_width="209dp"
-        android:layout_height="57dp"
-        android:layout_marginTop="152dp"
-        android:text="Tính Chu Vi"
-        android:textColor="@color/xanhduong"
-        android:textSize="25dp"
-        android:background="@drawable/btntong"
+        android:id="@+id/btnKQ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/tbinh"
+        android:text="Kết quả"
+        android:textColor="@color/black"
         app:backgroundTint="@null"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/edtBanKinh" />
-
-    <TextView
-        android:id="@+id/txtKetQua"
-        android:layout_width="209dp"
-        android:layout_height="57dp"
-        android:layout_marginTop="112dp"
-        android:text="Chu vi: "
-        android:textSize="30dp"
-        android:backgroundTint="@color/doo"
-        android:gravity="center_vertical|start"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnTinhChuVi" />
+        app:layout_constraintTop_toBottomOf="@+id/edtA3" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -46,8 +46,8 @@ public class Cau2 extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 String getdsGK = dsGk.get(position);
-                Toast.makeText(Cau2.this, getdsGK, Toast.LENGTH_SHORT).show();
                 Intent ds = new Intent(Cau2.this, Cau2_2.class);
+                ds.putExtra("abc", getdsGK);
                 startActivity(ds);
             }
         });

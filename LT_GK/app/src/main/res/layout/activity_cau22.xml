@@ -7,4 +7,18 @@
     android:layout_height="match_parent"
     tools:context=".Cau2_2">
 
+    <TextView
+        android:id="@+id/txtGK"
+        android:layout_width="231dp"
+        android:layout_height="222dp"
+        android:layout_marginTop="84dp"
+        android:text="TextView"
+        android:fontFamily="sans-serif"
+        android:gravity="center_vertical|center"
+        android:textColor="@color/xanhduong"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -51,9 +51,9 @@ public class Cau1 extends AppCompatActivity {
                     return;
                 }
                 try {
-                    int a = Integer.parseInt(strA);
-                    int b = Integer.parseInt(strB);
-                    int tong = a + b;
+                    double a = Integer.parseInt(strA);
+                    double b = Integer.parseInt(strB);
+                    double tong = (a + b)/2;
 
                     edtKQ.setText(String.valueOf(tong));
                 } catch (NumberFormatException e) {
