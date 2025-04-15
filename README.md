@@ -6,6 +6,13 @@ Chào bạn, mình là **Khánh Linh**
 
 ---
 
+## 📌 Ex_FragmentStatic  
+| Hình ảnh | Mô tả |
+|----------|-------|
+|![Screenshot 2025-04-15 080652](https://github.com/user-attachments/assets/5c88b6ad-d7c9-4a5b-acc9-9079a8ca95b6)| Giao diện|
+
+---
+
 ## 📌 LT_GK  
 | Hình ảnh | Mô tả |
 |----------|-------|
