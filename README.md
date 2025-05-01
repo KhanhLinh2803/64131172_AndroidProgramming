@@ -6,6 +6,13 @@ Chào bạn, mình là **Khánh Linh**
 
 ---
 
+## 📌 Ex_224  
+| Hình ảnh | Mô tả |
+|----------|-------|
+|![Screenshot 2025-04-24 040606](https://github.com/user-attachments/assets/25ca3c99-00af-4908-9685-04006d8eaa60)| Giao diện|
+
+---
+
 ## 📌 Ex_FragmentStatic  
 | Hình ảnh | Mô tả |
 |----------|-------|
