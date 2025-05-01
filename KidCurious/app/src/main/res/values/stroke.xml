@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- styles.xml -->
+    <style name="kid_curious">
+        <item name="android:shadowColor">@color/white</item>
+        <item name="android:shadowDx">20</item>
+        <item name="android:shadowDy">10</item>
+        <item name="android:shadowRadius">12</item>
+    </style>
+</resources>
