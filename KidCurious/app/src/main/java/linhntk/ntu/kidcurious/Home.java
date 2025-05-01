@@ -2,6 +2,7 @@ package linhntk.ntu.kidcurious;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
@@ -12,6 +13,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
+
+
 
 public class Home extends AppCompatActivity {
     Button btnA, btnN, btnF;
@@ -37,15 +40,27 @@ public class Home extends AppCompatActivity {
         btnA.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(Home.this, "START!", Toast.LENGTH_SHORT).show();
-                Intent btna = new Intent(Home.this, Animal.class);
-                startActivity(btna);
+                LayoutInflater inflater = getLayoutInflater();
+                View layout = inflater.inflate(R.layout.toast_custom, null);
+                Toast toast = new Toast(getApplicationContext());
+                toast.setDuration(Toast.LENGTH_SHORT);
+                toast.setView(layout);
+                toast.show();
+
+                Intent btnf = new Intent(Home.this, Flag.class);
+                startActivity(btnf);
             }
         });
         btnF.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(Home.this, "START!", Toast.LENGTH_SHORT).show();
+                LayoutInflater inflater = getLayoutInflater();
+                View layout = inflater.inflate(R.layout.toast_custom, null);
+                Toast toast = new Toast(getApplicationContext());
+                toast.setDuration(Toast.LENGTH_SHORT);
+                toast.setView(layout);
+                toast.show();
+
                 Intent btnf = new Intent(Home.this, Flag.class);
                 startActivity(btnf);
             }
@@ -53,7 +68,13 @@ public class Home extends AppCompatActivity {
         btnN.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(Home.this, "START!", Toast.LENGTH_SHORT).show();
+                LayoutInflater inflater = getLayoutInflater();
+                View layout = inflater.inflate(R.layout.toast_custom, null);
+                Toast toast = new Toast(getApplicationContext());
+                toast.setDuration(Toast.LENGTH_SHORT);
+                toast.setView(layout);
+                toast.show();
+
                 Intent btnn = new Intent(Home.this, Number.class);
                 startActivity(btnn);
             }

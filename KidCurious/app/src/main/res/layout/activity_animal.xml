@@ -7,4 +7,51 @@
     android:layout_height="match_parent"
     tools:context=".Animal">
 
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="242dp"
+        android:layout_height="227dp"
+        app:srcCompat="@drawable/a1"
+        tools:layout_editor_absoluteX="84dp"
+        tools:layout_editor_absoluteY="171dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="184dp"
+        android:layout_height="27dp"
+        android:text="Hãy cùng chơi nào! icon"
+        tools:layout_editor_absoluteX="111dp"
+        tools:layout_editor_absoluteY="420dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Easy"
+        tools:layout_editor_absoluteX="39dp"
+        tools:layout_editor_absoluteY="591dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Average"
+        tools:layout_editor_absoluteX="160dp"
+        tools:layout_editor_absoluteY="591dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hard"
+        tools:layout_editor_absoluteX="285dp"
+        tools:layout_editor_absoluteY="591dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="102dp"
+        android:layout_height="76dp"
+        android:text="Home"
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="66dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

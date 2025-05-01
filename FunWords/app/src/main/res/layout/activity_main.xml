@@ -37,7 +37,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/kid_curiou"
+        android:id="@+id/KD"
         android:layout_width="347dp"
         android:layout_height="180dp"
         android:layout_marginTop="272dp"
