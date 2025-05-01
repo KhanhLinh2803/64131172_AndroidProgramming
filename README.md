@@ -6,6 +6,13 @@ Chào bạn, mình là **Khánh Linh**
 
 ---
 
+## 📌 Ex_KidCurious_ProjectCuoiKy  
+| Hình ảnh | Mô tả |
+|----------|-------|
+|![Screenshot 2025-05-01 084329](https://github.com/user-attachments/assets/f2681d91-85e7-4979-8fe5-cbbd9e18ccc4)| Giao diện Chào mừng|
+
+---
+
 ## 📌 Ex_224  
 | Hình ảnh | Mô tả |
 |----------|-------|
