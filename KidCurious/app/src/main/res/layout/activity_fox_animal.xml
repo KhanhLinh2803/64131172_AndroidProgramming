@@ -10,20 +10,20 @@
 
     <Button
         android:id="@+id/button10"
-        android:layout_width="300sp"
-        android:layout_height="60sp"
+        android:layout_width="200sp"
+        android:layout_height="50sp"
         android:background="@drawable/bg_toast"
         android:fontFamily="@font/summarynotes"
-        android:text="FINISH"
+        android:text="CHECK!"
         android:textColor="@color/white"
-        android:textSize="40sp"
+        android:textSize="35sp"
         app:backgroundTint="@null"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.929" />
+        app:layout_constraintVertical_bias="0.914" />
 
     <Button
         android:id="@+id/button3"
@@ -65,7 +65,7 @@
         android:layout_height="58dp"
         android:background="@drawable/fox1"
         android:fontFamily="@font/summarynotes"
-        android:text="K"
+        android:text="G"
         android:textColor="@color/white"
         android:textSize="35sp"
         app:backgroundTint="@null"
@@ -82,7 +82,7 @@
         android:layout_height="58dp"
         android:background="@drawable/fox1"
         android:fontFamily="@font/summarynotes"
-        android:text="M"
+        android:text="I"
         android:textColor="@color/white"
         android:textSize="35sp"
         app:backgroundTint="@null"
@@ -116,7 +116,7 @@
         android:layout_height="58dp"
         android:background="@drawable/fox1"
         android:fontFamily="@font/summarynotes"
-        android:text="B"
+        android:text="P"
         android:textColor="@color/white"
         android:textSize="35sp"
         app:backgroundTint="@null"
