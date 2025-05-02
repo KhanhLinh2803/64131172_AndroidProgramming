@@ -9,8 +9,8 @@ Chào bạn, mình là **Khánh Linh**
 ## 📌 Ex_KidCurious_ProjectCuoiKy  
 | Hình ảnh | Mô tả |
 |----------|-------|
-|![Screenshot 2025-05-01 115451](https://github.com/user-attachments/assets/c40588f3-b48e-4bd7-ab17-27c53cff21ce)| Giao diện Trang chủ|
-|![Screenshot 2025-05-01 115515](https://github.com/user-attachments/assets/a68a3a38-02c4-4a4f-b63a-0e8ba8a5a455)| Giao diện Chào mừng|
+|![Screenshot 2025-05-01 142008](https://github.com/user-attachments/assets/a1882d98-6c4c-4d7c-addd-326a72e6f21c)| Giao diện Trang chủ|
+|![Screenshot 2025-05-02 085828](https://github.com/user-attachments/assets/ff6fcda5-4214-4f91-a030-41eaec575112)| Giao diện Chào mừng|
 
 ---
 
