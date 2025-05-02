@@ -34,7 +34,8 @@ public class FOX_Animal extends AppCompatActivity {
         btnD1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                Intent btnd1 = new Intent(FOX_Animal.this, FOX1_Animal.class);
+                startActivity(btnd1);
             }
         });
     }

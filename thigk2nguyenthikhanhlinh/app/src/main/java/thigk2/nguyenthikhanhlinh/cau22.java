@@ -16,6 +16,7 @@ public class cau22 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_cau22);
+
         txtCM = findViewById(R.id.txtCM);
         String kkk = getIntent().getStringExtra("abc");
         txtCM.setText(kkk);
