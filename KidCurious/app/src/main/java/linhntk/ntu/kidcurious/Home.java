@@ -47,8 +47,9 @@ public class Home extends AppCompatActivity {
                 toast.setView(layout);
                 toast.show();
 
-                Intent btnf = new Intent(Home.this, Flag.class);
+                Intent btnf = new Intent(Home.this, Animal.class);
                 startActivity(btnf);
+
             }
         });
         btnF.setOnClickListener(new View.OnClickListener() {

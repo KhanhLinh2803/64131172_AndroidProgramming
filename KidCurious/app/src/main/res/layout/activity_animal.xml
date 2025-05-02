@@ -8,27 +8,293 @@
     android:background="@color/xanhhome"
     tools:context=".Animal">
 
-    <ImageView
-        android:id="@+id/imageView8"
-        android:layout_width="242dp"
-        android:layout_height="227dp"
-        app:srcCompat="@drawable/a1"
-        tools:layout_editor_absoluteX="84dp"
-        tools:layout_editor_absoluteY="171dp" />
+    <View
+        android:id="@+id/view5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/h1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="184dp"
-        android:layout_height="27dp"
-        android:text="Hãy cùng chơi nào! icon"
-        tools:layout_editor_absoluteX="111dp"
-        tools:layout_editor_absoluteY="420dp" />
+    <View
+        android:id="@+id/view6"
+        android:layout_width="128sp"
+        android:layout_height="133sp"
+        android:background="@drawable/h6"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.871" />
 
-    <Button
-        android:id="@+id/button4"
-        android:layout_width="102dp"
-        android:layout_height="76dp"
-        android:text="Home"
-        tools:layout_editor_absoluteX="43dp"
-        tools:layout_editor_absoluteY="66dp" />
+    <View
+        android:id="@+id/view2"
+        android:layout_width="267sp"
+        android:layout_height="match_parent"
+        android:background="@drawable/a2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <View
+        android:id="@+id/view7"
+        android:layout_width="280sp"
+        android:layout_height="186sp"
+        android:background="@drawable/h10"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/view8"
+        android:layout_width="264sp"
+        android:layout_height="444sp"
+        android:layout_marginStart="224dp"
+        android:background="@drawable/h10"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <View
+        android:id="@+id/view9"
+        android:layout_width="239sp"
+        android:layout_height="315sp"
+        android:layout_marginStart="188dp"
+        android:background="@drawable/h10"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <FrameLayout
+        android:layout_width="137dp"
+        android:layout_height="140dp"
+        android:layout_gravity="center"
+        android:rotation="350"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <!-- Ảnh vector khung hình con vật -->
+
+        <!-- Chữ nằm giữa -->
+
+        <Button
+            android:id="@+id/ahome"
+            android:layout_width="102dp"
+            android:layout_height="102dp"
+            android:background="@drawable/a3"
+            android:gravity="center"
+            android:rotation="340"
+            android:scaleType="fitXY"
+            app:backgroundTint="@null" />
+
+        <TextView
+            android:layout_width="117dp"
+            android:layout_height="135dp"
+            android:fontFamily="@font/summarynotes"
+            android:gravity="bottom|center"
+            android:rotation="10"
+            android:text="ANIMAL"
+            android:textColor="@color/hongbtnhome"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="155dp"
+        android:layout_height="135dp"
+        android:layout_gravity="center"
+        android:rotation="350"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.734"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <!-- Ảnh vector khung hình con vật -->
+
+        <!-- Chữ nằm giữa -->
+
+        <Button
+            android:id="@+id/alv1"
+            android:layout_width="120dp"
+            android:layout_height="112dp"
+            android:background="@drawable/a1"
+            android:scaleType="fitXY"
+            app:backgroundTint="@null" />
+
+        <TextView
+            android:layout_width="126dp"
+            android:layout_height="107dp"
+            android:fontFamily="@font/summarynotes"
+            android:gravity="bottom|center"
+            android:text="level I"
+            android:textColor="@color/hongbtnhome"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="116dp"
+        android:layout_height="104dp"
+        android:layout_gravity="center"
+        android:rotation="350"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.759"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.28">
+
+        <!-- Ảnh vector khung hình con vật -->
+
+        <!-- Chữ nằm giữa -->
+
+        <Button
+            android:id="@+id/alv2"
+            android:layout_width="61dp"
+            android:layout_height="61dp"
+            android:background="@drawable/h9"
+            android:rotation="60"
+            android:scaleType="fitXY"
+            app:backgroundTint="@null" />
+
+        <TextView
+            android:layout_width="86dp"
+            android:layout_height="94dp"
+            android:fontFamily="@font/summarynotes"
+            android:gravity="bottom|center"
+            android:rotation="20"
+            android:text="level II"
+            android:textColor="@color/hongbtnhome"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="109dp"
+        android:layout_height="91dp"
+        android:layout_gravity="center"
+        android:rotation="350"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499">
+
+        <!-- Ảnh vector khung hình con vật -->
+
+        <!-- Chữ nằm giữa -->
+
+        <Button
+            android:id="@+id/alv3"
+            android:layout_width="64dp"
+            android:layout_height="66dp"
+            android:background="@drawable/h3"
+            android:rotation="0"
+            android:scaleType="fitXY"
+            app:backgroundTint="@null" />
+
+        <TextView
+            android:layout_width="89dp"
+            android:layout_height="90dp"
+            android:fontFamily="@font/summarynotes"
+            android:gravity="bottom|center"
+            android:rotation="10"
+            android:text="level III"
+            android:textColor="@color/hongbtnhome"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="115dp"
+        android:layout_height="96dp"
+        android:layout_gravity="center"
+        android:rotation="350"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.662"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.713">
+
+        <!-- Ảnh vector khung hình con vật -->
+
+        <!-- Chữ nằm giữa -->
+
+        <Button
+            android:id="@+id/alv4"
+            android:layout_width="62dp"
+            android:layout_height="59dp"
+            android:background="@drawable/a4"
+            android:rotation="340"
+            android:scaleType="fitXY"
+            app:backgroundTint="@null" />
+
+        <TextView
+            android:layout_width="87dp"
+            android:layout_height="93dp"
+            android:fontFamily="@font/summarynotes"
+            android:gravity="bottom|center"
+            android:rotation="340"
+            android:text="level IV"
+            android:textColor="@color/hongbtnhome"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="116dp"
+        android:layout_height="110dp"
+        android:layout_gravity="center"
+        android:rotation="350"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.948">
+
+        <!-- Ảnh vector khung hình con vật -->
+
+        <!-- Chữ nằm giữa -->
+
+        <Button
+            android:id="@+id/alv5"
+            android:layout_width="63dp"
+            android:layout_height="68dp"
+            android:background="@drawable/bg2"
+            android:rotation="120"
+            android:gravity="center"
+            android:scaleType="fitXY"
+            app:backgroundTint="@null" />
+
+        <TextView
+            android:layout_width="93dp"
+            android:layout_height="108dp"
+            android:fontFamily="@font/summarynotes"
+            android:gravity="bottom|center"
+            android:rotation="20"
+            android:text="level V"
+            android:textColor="@color/hongbtnhome"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+    </FrameLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
