@@ -1,5 +1,6 @@
 package linhntk.ntu.ex_224;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.widget.Toast;
@@ -28,17 +29,22 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
                 int menuItemID = item.getItemId();
-                if (menuItemID == R.id.navHome)
-                    //thay fragment Home
-                    Toast.makeText(MainActivity.this, "Thay Home", Toast.LENGTH_SHORT).show();
-                else if (menuItemID == R.id.navSearch)
+                if (menuItemID == R.id.navHome){
+                    Intent home = new Intent(MainActivity.this, HomeFragment.class);
+                        startActivities(home);}
+                else if
+                    (menuItemID == R.id.navSearch)
                     Toast.makeText(MainActivity.this, "Thay Search", Toast.LENGTH_SHORT).show();
-                else if (menuItemID == R.id.navProfile)
+                else if
+                    (menuItemID == R.id.navProfile)
                     Toast.makeText(MainActivity.this, "Thay Profile", Toast.LENGTH_SHORT).show();
                 else return false;
                 return true;
             }
         });
 
+    }
+
+    private void startActivities(Intent home) {
     }
 }
