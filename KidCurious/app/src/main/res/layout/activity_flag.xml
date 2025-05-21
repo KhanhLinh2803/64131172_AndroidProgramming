@@ -141,14 +141,7 @@
 
         <!-- Chữ nằm giữa -->
 
-        <Button
-            android:id="@+id/flv1"
-            android:layout_width="61dp"
-            android:layout_height="61dp"
-            android:background="@drawable/h9"
-            android:rotation="60"
-            android:scaleType="fitXY"
-            app:backgroundTint="@null" />
+
 
         <TextView
             android:layout_width="77dp"
@@ -159,6 +152,12 @@
             android:textColor="@color/hongbtnhome"
             android:textSize="30sp"
             android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/f1" />
     </FrameLayout>
 
     <FrameLayout
