@@ -27,7 +27,7 @@ public class test extends AppCompatActivity {
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_test);
 
-        btnt = findViewById(R.id.btnt);
+        btnt = findViewById(R.id.btnn);
 
         btnt.setOnClickListener(new View.OnClickListener() {
             @Override

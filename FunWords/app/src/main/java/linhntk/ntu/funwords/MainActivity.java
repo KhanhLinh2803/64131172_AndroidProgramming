@@ -1,34 +1,36 @@
 package linhntk.ntu.funwords;
 
 import android.annotation.SuppressLint;
-import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
-import android.widget.TextView;
 
-import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.graphics.Insets;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
+import java.util.ArrayList;
+import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
-    TextView KD;
-    @SuppressLint("MissingInflatedId")
+
+    RecyclerView recyclerView;
+    adapteritem adapter;
+    List<item> itemList;
+
+    @SuppressLint({"MissingInflatedId", "WrongViewCast"})
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        EdgeToEdge.enable(this);
-        setContentView(R.layout.activity_main);
-        KD = findViewById(R.id.KD);
+        setContentView(R.layout.activity_main); // layout của test.java
 
-        KD.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent kd = new Intent(MainActivity.this, test.class);
-                startActivity(kd);
-            }
-        });
+        recyclerView = findViewById(R.id.lvhinh); // Dùng id 'lvhinh' cho RecyclerView
+
+        itemList = new ArrayList<>();
+        itemList.add(new item("Chó", "dog"));   // R.drawable.dog
+        itemList.add(new item("Mèo", "cat"));   // R.drawable.cat
+        itemList.add(new item("Vịt", "duck"));  // R.drawable.duck
+
+        adapter = new adapteritem(this, itemList);
+        recyclerView.setLayoutManager(new LinearLayoutManager(this));
+        recyclerView.setAdapter(adapter);
     }
 }

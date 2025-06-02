@@ -7,15 +7,28 @@
     android:layout_height="match_parent"
     tools:context=".test">
 
-
-    <Button
-        android:id="@+id/btnt"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="244dp"
-        android:text="Button"
+    <ImageView
+        android:id="@+id/imgg"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="160dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/dog" />
+
+    <Button
+        android:id="@+id/btnn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="160dp"
+        android:layout_marginEnd="160dp"
+        android:text="Button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgg" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
