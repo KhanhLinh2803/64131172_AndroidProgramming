@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/xanhhome"
-    tools:context=".Animal">
+    tools:context=".Flag">
 
 
     <View
@@ -89,8 +89,8 @@
         app:layout_constraintVertical_bias="1.0" />
 
     <FrameLayout
-        android:layout_width="174dp"
-        android:layout_height="179dp"
+        android:layout_width="179dp"
+        android:layout_height="198dp"
         android:layout_gravity="center"
         android:rotation="350"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -106,29 +106,29 @@
 
         <Button
             android:id="@+id/fhome"
-            android:layout_width="130dp"
-            android:layout_height="120dp"
-            android:background="@drawable/h4"
+            android:layout_width="158dp"
+            android:layout_height="138dp"
+            android:background="@drawable/flag2"
             android:gravity="center"
             android:rotation="10"
             android:scaleType="fitXY"
             app:backgroundTint="@null" />
 
         <TextView
-            android:layout_width="146dp"
-            android:layout_height="169dp"
+            android:layout_width="158dp"
+            android:layout_height="183dp"
             android:fontFamily="@font/summarynotes"
             android:gravity="bottom|center"
             android:rotation="10"
             android:text="FLAG"
             android:textColor="@color/hongbtnhome"
-            android:textSize="30sp"
+            android:textSize="40sp"
             android:textStyle="bold" />
     </FrameLayout>
 
     <FrameLayout
-        android:layout_width="105dp"
-        android:layout_height="109dp"
+        android:layout_width="130dp"
+        android:layout_height="118dp"
         android:layout_gravity="center"
         android:rotation="350"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -143,71 +143,70 @@
         <!-- Chữ nằm giữa -->
 
 
-
         <TextView
-            android:layout_width="77dp"
-            android:layout_height="91dp"
+            android:layout_width="98dp"
+            android:layout_height="110dp"
             android:fontFamily="@font/summarynotes"
             android:gravity="bottom|center"
             android:text="level I"
             android:textColor="@color/hongbtnhome"
-            android:textSize="30sp"
+            android:textSize="33sp"
             android:textStyle="bold" />
 
         <ImageView
             android:id="@+id/flv1"
-            android:layout_width="70dp"
-            android:layout_height="60dp"
-            android:src="@drawable/designer" />
+            android:layout_width="92dp"
+            android:layout_height="73dp"
+            android:src="@drawable/flag1" />
     </FrameLayout>
 
     <FrameLayout
-        android:layout_width="131dp"
-        android:layout_height="131dp"
+        android:layout_width="130dp"
+        android:layout_height="118dp"
         android:layout_gravity="center"
         android:rotation="350"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.707"
+        app:layout_constraintHorizontal_bias="0.733"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.26">
+        app:layout_constraintVertical_bias="0.28">
 
         <!-- Ảnh vector khung hình con vật -->
 
         <!-- Chữ nằm giữa -->
 
         <TextView
-            android:layout_width="119dp"
+            android:layout_width="101dp"
             android:layout_height="112dp"
             android:fontFamily="@font/summarynotes"
             android:gravity="bottom|center"
-            android:rotation="20"
+            android:rotation="15"
             android:text="level II"
             android:textColor="@color/hongbtnhome"
-            android:textSize="30sp"
+            android:textSize="33sp"
             android:textStyle="bold" />
 
         <ImageView
             android:id="@+id/flv2"
-            android:layout_width="90dp"
-            android:layout_height="70dp"
-            android:rotation="30"
-            android:src="@drawable/designer__1_" />
+            android:layout_width="106dp"
+            android:layout_height="80dp"
+            android:rotation="40"
+            android:src="@drawable/flag3" />
 
     </FrameLayout>
 
     <FrameLayout
-        android:layout_width="109dp"
-        android:layout_height="91dp"
+        android:layout_width="130dp"
+        android:layout_height="118dp"
         android:layout_gravity="center"
         android:rotation="350"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.996"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.499">
+        app:layout_constraintVertical_bias="0.52">
 
         <!-- Ảnh vector khung hình con vật -->
 
@@ -215,36 +214,36 @@
 
         <Button
             android:id="@+id/flv3"
-            android:layout_width="64dp"
-            android:layout_height="66dp"
-            android:background="@drawable/h3"
+            android:layout_width="77dp"
+            android:layout_height="63dp"
+            android:background="@drawable/flag5"
             android:rotation="0"
             android:scaleType="fitXY"
             app:backgroundTint="@null" />
 
         <TextView
-            android:layout_width="89dp"
-            android:layout_height="90dp"
+            android:layout_width="95dp"
+            android:layout_height="106dp"
             android:fontFamily="@font/summarynotes"
             android:gravity="bottom|center"
             android:rotation="10"
             android:text="level III"
             android:textColor="@color/hongbtnhome"
-            android:textSize="30sp"
+            android:textSize="33sp"
             android:textStyle="bold" />
     </FrameLayout>
 
     <FrameLayout
-        android:layout_width="115dp"
-        android:layout_height="96dp"
+        android:layout_width="130dp"
+        android:layout_height="118dp"
         android:layout_gravity="center"
         android:rotation="350"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.662"
+        app:layout_constraintHorizontal_bias="0.733"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.713">
+        app:layout_constraintVertical_bias="0.724">
 
         <!-- Ảnh vector khung hình con vật -->
 
@@ -252,28 +251,28 @@
 
         <Button
             android:id="@+id/flv4"
-            android:layout_width="62dp"
-            android:layout_height="59dp"
-            android:background="@drawable/a4"
+            android:layout_width="69dp"
+            android:layout_height="71dp"
+            android:background="@drawable/flag6"
             android:rotation="340"
             android:scaleType="fitXY"
             app:backgroundTint="@null" />
 
         <TextView
             android:layout_width="87dp"
-            android:layout_height="93dp"
+            android:layout_height="108dp"
             android:fontFamily="@font/summarynotes"
             android:gravity="bottom|center"
             android:rotation="340"
             android:text="level IV"
             android:textColor="@color/hongbtnhome"
-            android:textSize="30sp"
+            android:textSize="33sp"
             android:textStyle="bold" />
     </FrameLayout>
 
     <FrameLayout
-        android:layout_width="116dp"
-        android:layout_height="110dp"
+        android:layout_width="130dp"
+        android:layout_height="118dp"
         android:layout_gravity="center"
         android:rotation="350"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -289,23 +288,23 @@
 
         <Button
             android:id="@+id/flv5"
-            android:layout_width="63dp"
+            android:layout_width="93dp"
             android:layout_height="68dp"
-            android:background="@drawable/bg2"
-            android:rotation="120"
+            android:background="@drawable/flag7"
             android:gravity="center"
+            android:rotation="40"
             android:scaleType="fitXY"
             app:backgroundTint="@null" />
 
         <TextView
-            android:layout_width="93dp"
+            android:layout_width="96dp"
             android:layout_height="108dp"
             android:fontFamily="@font/summarynotes"
             android:gravity="bottom|center"
             android:rotation="20"
             android:text="level V"
             android:textColor="@color/hongbtnhome"
-            android:textSize="30sp"
+            android:textSize="33sp"
             android:textStyle="bold" />
     </FrameLayout>
 
