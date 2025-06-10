@@ -77,16 +77,16 @@
         app:layout_constraintVertical_bias="0.0" />
 
     <FrameLayout
-        android:layout_width="175dp"
-        android:layout_height="179dp"
+        android:layout_width="133dp"
+        android:layout_height="146dp"
         android:layout_gravity="center"
         android:rotation="350"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.803"
+        app:layout_constraintHorizontal_bias="0.828"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.078">
+        app:layout_constraintVertical_bias="0.113">
 
         <!-- Ảnh vector khung hình con vật -->
 
@@ -94,8 +94,8 @@
 
         <Button
             android:id="@+id/btnA"
-            android:layout_width="132dp"
-            android:layout_height="123dp"
+            android:layout_width="105dp"
+            android:layout_height="100dp"
             android:background="@drawable/a3"
             android:gravity="center"
             android:rotation="340"
@@ -103,68 +103,68 @@
             app:backgroundTint="@null" />
 
         <TextView
-            android:layout_width="146dp"
-            android:layout_height="167dp"
+            android:layout_width="111dp"
+            android:layout_height="140dp"
             android:fontFamily="@font/summarynotes"
             android:gravity="bottom|center"
             android:rotation="10"
             android:text="ANIMAL"
             android:textColor="@color/hongbtnhome"
-            android:textSize="40sp"
+            android:textSize="37sp"
             android:textStyle="bold" />
     </FrameLayout>
 
     <FrameLayout
         android:id="@+id/frameLayout"
-        android:layout_width="175dp"
-        android:layout_height="169dp"
+        android:layout_width="121dp"
+        android:layout_height="130dp"
         android:layout_gravity="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.737"
+        app:layout_constraintHorizontal_bias="0.619"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.846">
+        app:layout_constraintVertical_bias="0.796">
 
         <!-- Ảnh vector khung hình con vật -->
         <Button
             android:id="@+id/btnN"
-            android:layout_width="135dp"
-            android:layout_height="112dp"
+            android:layout_width="89dp"
+            android:layout_height="90dp"
             android:background="@drawable/number5"
             android:scaleType="fitXY"
             app:backgroundTint="@null" />
 
         <!-- Chữ nằm giữa -->
         <TextView
-            android:layout_width="135dp"
-            android:layout_height="156dp"
+            android:layout_width="wrap_content"
+            android:layout_height="130dp"
             android:fontFamily="@font/summarynotes"
             android:gravity="bottom|center"
             android:rotation="0"
             android:text="NUMBER"
             android:textColor="@color/hongbtnhome"
-            android:textSize="40sp"
+            android:textSize="37sp"
             android:textStyle="bold" />
     </FrameLayout>
 
     <FrameLayout
-        android:layout_width="173dp"
-        android:layout_height="164dp"
+        android:layout_width="119dp"
+        android:layout_height="125dp"
         android:layout_gravity="center"
         android:rotation="350"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.941"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.477">
+        app:layout_constraintVertical_bias="0.493">
 
         <!-- Ảnh vector khung hình con vật -->
         <Button
             android:id="@+id/btnF"
-            android:layout_width="144dp"
-            android:layout_height="114dp"
+            android:layout_width="97dp"
+            android:layout_height="97dp"
             android:background="@drawable/flag2"
             android:rotation="10"
             android:scaleType="fitXY"
@@ -172,14 +172,14 @@
 
         <!-- Chữ nằm giữa -->
         <TextView
-            android:layout_width="146dp"
-            android:layout_height="154dp"
+            android:layout_width="103dp"
+            android:layout_height="127dp"
             android:fontFamily="@font/summarynotes"
             android:gravity="bottom|center"
             android:rotation="10"
             android:text="FLAG"
             android:textColor="@color/hongbtnhome"
-            android:textSize="40sp"
+            android:textSize="37sp"
             android:textStyle="bold" />
     </FrameLayout>
 
@@ -199,27 +199,27 @@
         android:id="@+id/imageView6"
         android:layout_width="66dp"
         android:layout_height="68dp"
-        android:background="@drawable/h3"
-        android:rotation="295"
+        android:background="@drawable/cho2"
+        android:rotation="29"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.09"
+        app:layout_constraintHorizontal_bias="0.183"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.321" />
+        app:layout_constraintVertical_bias="0.534" />
 
     <ImageView
         android:id="@+id/imageView7"
         android:layout_width="58dp"
         android:layout_height="58dp"
-        android:background="@drawable/number10"
+        android:background="@drawable/number3"
         android:rotation="15"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.198"
+        app:layout_constraintHorizontal_bias="0.043"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.453" />
+        app:layout_constraintVertical_bias="0.302" />
 
     <ImageView
         android:id="@+id/imageView8"
@@ -231,7 +231,7 @@
         app:layout_constraintHorizontal_bias="0.046"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.59" />
+        app:layout_constraintVertical_bias="0.831" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

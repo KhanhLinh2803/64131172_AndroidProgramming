@@ -25,17 +25,20 @@
 
     <TextView
         android:id="@+id/txtG1"
-        android:layout_width="296dp"
-        android:layout_height="275dp"
-        android:background="@drawable/bg_toast"
+        android:layout_width="340dp"
+        android:layout_height="278dp"
+        android:background="@drawable/den"
         android:fontFamily="@font/summarynotes"
         android:gravity="center"
-        android:text="Nó là con heo đó! Ngu vậy =>>>"
+        android:rotation="18"
+        android:text="P _ G"
+        android:textColor="@color/white"
         android:textSize="40sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.309" />
+        app:layout_constraintVertical_bias="0.417" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -13,6 +13,24 @@
         android:theme="@style/Theme.KidCurious"
         tools:targetApi="31">
         <activity
+            android:name=".TWO2_Number"
+            android:exported="false" />
+        <activity
+            android:name=".KOREA2_Flag"
+            android:exported="false" />
+        <activity
+            android:name=".FOX2_Animal"
+            android:exported="false" />
+        <activity
+            android:name=".TWO_Number"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".KOREA_Flag"
+            android:exported="false" />
+        <activity
             android:name=".FOX1_Animal"
             android:exported="false" />
         <activity

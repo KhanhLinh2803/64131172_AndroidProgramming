@@ -9,24 +9,24 @@
     tools:context=".FOX_Animal">
 
     <Button
-        android:id="@+id/button10"
-        android:layout_width="200sp"
-        android:layout_height="50sp"
-        android:background="@drawable/bg_toast"
+        android:id="@+id/btna1"
+        android:layout_width="225dp"
+        android:layout_height="76dp"
+        android:background="@drawable/hcn__3_"
         android:fontFamily="@font/summarynotes"
+        android:gravity="bottom|center"
         android:text="CHECK!"
-        android:textColor="@color/white"
-        android:textSize="35sp"
+        android:textColor="@color/hongbtnhome"
+        android:textSize="33sp"
         app:backgroundTint="@null"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.914" />
+        app:layout_constraintVertical_bias="0.944" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/buttonF"
         android:layout_width="62dp"
         android:layout_height="58dp"
         android:background="@drawable/fox1"
@@ -43,7 +43,7 @@
         app:layout_constraintVertical_bias="0.692" />
 
     <Button
-        android:id="@+id/button16"
+        android:id="@+id/buttonO"
         android:layout_width="62dp"
         android:layout_height="58dp"
         android:background="@drawable/fox1"
@@ -60,7 +60,7 @@
         app:layout_constraintVertical_bias="0.815" />
 
     <Button
-        android:id="@+id/button15"
+        android:id="@+id/buttonG"
         android:layout_width="62dp"
         android:layout_height="58dp"
         android:background="@drawable/fox1"
@@ -77,7 +77,7 @@
         app:layout_constraintVertical_bias="0.815" />
 
     <Button
-        android:id="@+id/button14"
+        android:id="@+id/buttonI"
         android:layout_width="62dp"
         android:layout_height="58dp"
         android:background="@drawable/fox1"
@@ -94,7 +94,7 @@
         app:layout_constraintVertical_bias="0.815" />
 
     <Button
-        android:id="@+id/button13"
+        android:id="@+id/buttonX"
         android:layout_width="62dp"
         android:layout_height="58dp"
         android:background="@drawable/fox1"
@@ -111,7 +111,7 @@
         app:layout_constraintVertical_bias="0.815" />
 
     <Button
-        android:id="@+id/button11"
+        android:id="@+id/buttonP"
         android:layout_width="62dp"
         android:layout_height="58dp"
         android:background="@drawable/fox1"
@@ -128,7 +128,7 @@
         app:layout_constraintVertical_bias="0.692" />
 
     <Button
-        android:id="@+id/button12"
+        android:id="@+id/buttonJ"
         android:layout_width="62dp"
         android:layout_height="58dp"
         android:background="@drawable/fox1"
@@ -177,7 +177,7 @@
         app:layout_constraintVertical_bias="0.153" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/txta1"
         android:layout_width="184dp"
         android:layout_height="40dp"
         android:fontFamily="@font/summarynotes"
@@ -189,15 +189,15 @@
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.04" />
+        app:layout_constraintVertical_bias="0.05" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/txta2"
         android:layout_width="300dp"
         android:layout_height="60dp"
         android:fontFamily="@font/summarynotes"
         android:gravity="center"
-        android:text="Which animal is this?"
+        android:text="What animal is this?"
         android:textSize="40sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -207,7 +207,7 @@
         app:layout_constraintVertical_bias="0.157" />
 
     <ImageView
-        android:id="@+id/imageView4"
+        android:id="@+id/imga1"
         android:layout_width="188dp"
         android:layout_height="169dp"
         android:scaleType="fitXY"
@@ -217,15 +217,21 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.321"
-        app:srcCompat="@drawable/h9" />
+        app:srcCompat="@drawable/heo" />
 
     <EditText
-        android:id="@+id/editTextText"
+        android:id="@+id/edta1"
         android:layout_width="250dp"
         android:layout_height="60dp"
         android:ems="10"
         android:inputType="text"
-        android:text="Name"
+        android:text="_ _ _"
+        android:textStyle="bold"
+        android:textSize="28sp"
+        android:fontFamily="@font/summarynotes"
+        android:textColor="@color/dodo"
+        android:background="@drawable/hcn__4_"
+        android:gravity="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"

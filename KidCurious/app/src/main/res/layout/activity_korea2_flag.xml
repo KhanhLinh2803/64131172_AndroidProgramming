@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/xanhhome"
+    tools:context=".KOREA2_Flag">
+
+    <ImageView
+        android:id="@+id/imgf1"
+        android:layout_width="205dp"
+        android:layout_height="192dp"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.203"
+        app:srcCompat="@drawable/flag1" />
+
+    <Button
+        android:id="@+id/btnff4"
+        android:layout_width="159dp"
+        android:layout_height="74dp"
+        android:background="@drawable/ko"
+        android:fontFamily="@font/summarynotes"
+        android:text="KOREA"
+        android:textColor="@color/black"
+        android:textSize="38sp"
+        app:backgroundTint="@null"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnYay2"
+        android:layout_width="225dp"
+        android:layout_height="76dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="52dp"
+        android:background="@drawable/hcn__3_"
+        android:fontFamily="@font/summarynotes"
+        android:gravity="bottom|center"
+        android:text="YAY OK!"
+        android:textColor="@color/black"
+        android:textSize="33sp"
+        app:backgroundTint="@null"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imgkk4"
+        android:layout_width="52dp"
+        android:layout_height="48dp"
+        android:background="@drawable/hcn__1_"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.646" />
+
+    <Button
+        android:id="@+id/btnkk4"
+        android:layout_width="235dp"
+        android:layout_height="64dp"
+        android:background="@drawable/gl"
+        android:fontFamily="@font/summarynotes"
+        android:text="GOOD JOB!"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        app:backgroundTint="@null"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.748" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -14,6 +15,7 @@ import androidx.core.view.WindowInsetsCompat;
 
 public class Animal extends AppCompatActivity {
     Button ahome, alv1, alv2, alv3,alv4,alv5;
+    ImageView imgext1;
     @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,6 +29,7 @@ public class Animal extends AppCompatActivity {
         alv3 = findViewById(R.id.alv3);
         alv4 = findViewById(R.id.alv4);
         alv5 = findViewById(R.id.alv5);
+        imgext1 = findViewById(R.id.imgext1);
 
         ahome.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -40,6 +43,13 @@ public class Animal extends AppCompatActivity {
             public void onClick(View v) {
                 Intent fox = new Intent(Animal.this, FOX_Animal.class);
                 startActivity(fox);
+            }
+        });
+        imgext1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent imgexit1 = new Intent(Animal.this, Home.class);
+                startActivity(imgexit1);
             }
         });
     }
